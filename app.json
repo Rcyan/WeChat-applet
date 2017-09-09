@@ -7,7 +7,7 @@
     "pages/jump/jump"
   ],
   "window":{
-    "backgroundTextStyle":"light",
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "商城",
     "navigationBarTextStyle":"black"
