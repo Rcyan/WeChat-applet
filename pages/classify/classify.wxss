@@ -1,0 +1,40 @@
+/* pages/classify/classify.wxss */
+.classify-page{
+  color: #939393;
+}
+/*左侧*/
+.nav-left{
+  width:30%;
+}
+.navL-item{
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background: #f5f5f5;
+  border-bottom: 1px solid #dedede;
+  padding:6px 0;
+  font-size: 14px;
+}
+.active{
+  background: #fffdfd;
+}
+
+/*右侧*/
+.nav-right{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70%;
+  font-size: 12px;
+  padding: 6px 0;
+}
+.nav-right .navRItem{
+  width: 33.3%;
+  float: left;
+  height: 80px;
+  text-align: center;
+}
+.navRItem image{
+  height: 30px;
+  width: 50px;
+}

@@ -1,0 +1,31 @@
+<!--pages/classify/classify.wxml-->
+<view class="classify-page">
+    <view class="nav-left">
+        <block wx:for="{{navLeftItems}}">
+            <view class="navL-item {{curNav == item.id ? 'active' : ''}}" bindtap="everyItemC" data-id="{{item.id}}">{{item.tree.desc}}</view>
+        </block>
+    </view>
+
+    <view class="nav-right">
+      <view wx:if="{{navRightItems[curIndex].tree.nodes[0].tree.nodes}}">
+        <block wx:for="{{navRightItems[curIndex].tree.nodes[0].tree.nodes}}">
+          <view class="navRItem">
+            <block wx:if="{{item.tree.logo}}">
+              <image src="{{item.tree.logo}}"></image>
+            </block>
+            <block wx:else>
+              <image src="http://temp.im/50x30"></image>
+            </block>
+            <view wx:if="{{item.tree.desc}}">
+              <view>{{item.tree.desc}}</view>
+            </view>
+            <view wx:else>
+              <view>{{item.tree.desc2}}</view>
+            </view>
+          </view>
+        </block>
+      </view>
+      <view wx:else>暂无数据</view> 
+    </view>
+
+</view> 
