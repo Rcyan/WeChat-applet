@@ -5,17 +5,17 @@
 
 1.首页
 
-![home](https://rcyan.github.io/WeChat-applet/images/homeScreen.jpg) 
+![home](https://rcyan.github.io/WeChat-applet/images/screenHome.jpg) 
 
 2.分类
 
-![classify](https://rcyan.github.io/WeChat-applet/images/classifyScreen.jpg)
+![classify](https://rcyan.github.io/WeChat-applet/images/screenClassify.jpg)
 
 3.购物车
 
-![sjopCart](https://rcyan.github.io/WeChat-applet/images/cartScreen.jpg)
+![sjopCart](https://rcyan.github.io/WeChat-applet/images/screenCart.jpg)
 
 4.我的
 
-![my](https://rcyan.github.io/WeChat-applet/images/myScreen.jpg)
+![my](https://rcyan.github.io/WeChat-applet/images/screenMy.jpg)
 
