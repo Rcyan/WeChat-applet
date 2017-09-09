@@ -20,5 +20,5 @@
 ![my](https://rcyan.github.io/WeChat-applet/images/screenMy.jpg)
 
 
-! [广告] (https://rcyan.github.io/WeChat-applet/images/ad1.jpg)
+![my](https://rcyan.github.io/WeChat-applet/images/ad1.jpg)
 
