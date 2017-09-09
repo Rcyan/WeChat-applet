@@ -1,0 +1,7 @@
+<!--pages/shopCart/shopCart.wxml-->
+<view class="cart-page">
+  <view class="empty">
+    <image src="../../images/emptyCart.png"></image>
+    <view class="empty-text">购物车空空如也</view>
+  </view>
+</view>
