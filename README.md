@@ -3,5 +3,5 @@
 
 调用了环球的api
 
-1.首页![hahah](http://www.baidu.com/img/bdlogo.gif) 
+1.首页![hahah](https://rcyan.github.io/WeChat-applet/images/homeScreen.jpg) 
 
