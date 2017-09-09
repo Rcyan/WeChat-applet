@@ -1,0 +1,38 @@
+<!--logs.wxml-->
+<view class="my-page">
+  <!--头像部分-->
+  <view class="header">
+    <image class="header-img" src="{{userInfo.avatarUrl}}"></image>
+     <text>{{userInfo.nickName}}</text> 
+  </view>
+
+  <!--我的订单-->
+  <view class="my-list">
+    <!-- <view class="my-list-icon">
+      <image class="my-order-img" src="{{myOrderIcon}}"></image>
+    </view> -->
+    <view class="my-list-text">{{myOrder}}</view>
+    <view class="my-list-jump"></view>
+    <!-- <view class="classname"></view> -->
+  </view>
+  <view class="my-deal">
+      <view class="my-deal-item" wx:for="{{dealList}}">
+        <view  class="deal-item-icon">
+          <image src="{{item.icon}}"></image>
+        </view>
+        <text class="deal-item-text">{{item.text}}</text>
+      </view>
+  </view>
+
+  <!--收货地址等-->
+  <view wx:for="{{myList}}">
+    <view class="my-list">
+      <view class="my-list-icon">
+        <image class="my-list-img" src="{{item.icon}}"></image>
+      </view>
+     <view class="my-list-text">{{item.text}}</view>
+     <view class="my-list-jump"></view>
+    </view>
+  </view>
+
+</view>
