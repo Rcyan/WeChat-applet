@@ -1,0 +1,45 @@
+<view class="page">
+    <!--轮播广告区域-->
+    <view class="indexAd">
+        <swiper class="adBox" indicator-dots="true" autoplay="true">
+            <block wx:for="{{swipers}}">
+                <swiper-item>
+                    <image class="swiper-item" src="{{item}}" mode="aspectFill" />
+                </swiper-item>
+            </block>
+        </swiper>
+    </view>
+
+    <!--主题馆-->
+    <view class="themeP">
+      <view class="theme-title">
+        <text>{{theme}}</text>
+      </view>
+
+      <view class="theme-goods">
+        <view class="pic-box">
+            <view class="pic-item" wx:for="{{themeItems}}">
+              <image class="img" src="{{item.smallpic}}"></image>  
+          </view>  
+        </view>
+      </view>
+
+    </view>
+
+    <!--环球精选-->
+    <view class="handpicked">
+      <view class="handpicked-title">
+        <text>{{handpicked}}</text>
+      </view>
+
+      <view class="handpicked-goods">
+        <view class="pick-pic-box">
+            <view  bindtap="jumpDetailInfo" class="pick-pic-item" wx:for="{{handpickedItems}}">
+              <image class="img" src="{{item.goodspics}}"></image> 
+              <text class="pick-item-text">{{item.title}}</text>
+          </view>  
+        </view>
+      </view>
+
+    </view>
+</view>

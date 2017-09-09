@@ -1,0 +1,62 @@
+/**index.wxss**/
+/*轮播广告区域*/
+.page{
+  color: #939393;
+  background: #eeeeee;
+}
+.indexAd{
+  width: 100%;
+  height: auto;
+}
+.adBox{
+  width: 100%;
+  height: 365rpx;
+}
+.swiper-item{
+  display: inline-block;
+  width: 750rpx;
+  height: 365rpx;
+}
+
+/*主题馆*/
+.themeP{
+  width: 100%;
+  height: auto;
+  margin: 8px 0;
+}
+.theme-title,.handpicked-title{
+  height: 20px;
+  width: 80%;
+  background: #bd2d30;
+  line-height: 20px;
+  color: #eee;
+  padding: 3px;
+  border-radius:0 15px 15px 0;
+}
+.pic-item{
+  padding: 0px 0 0px 10px;
+  width:341rpx;
+  height: 166rpx;
+  display: inline-block;
+}
+ .pic-item .img{
+  width: 100%;
+  height: 186rpx;
+  display: inline-block;
+} 
+/*环球精选*/
+.pick-pic-item{
+  padding:0 10px 10px 10px;
+  width: 695rpx;
+  height: 755rpx;
+}
+ .pick-pic-item .img{
+  width: 695rpx;
+  height: 695rpx;
+} 
+.pick-pic-item .pick-item-text{
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  display: inline-block;
+}
